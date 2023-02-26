@@ -1,1 +1,2 @@
-# Landing-Page
+# Landing Page Odin Project
+CSS final project
