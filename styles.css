@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+.fsection {
+    height: 500px;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #1F2937;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+}
+.links {
+    display: flex;
+}
+.intro {
+    display: flex;
+}
