@@ -1,20 +1,11 @@
-body {
-    margin: 0;
+* {
     font-family: 'Roboto', arial;
-}
-.fsection {
-    height: 500px;
-    display: flex;
-    flex-flow: column wrap;
-    background-color: #1F2937;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 header {
     display: flex;
-    justify-content: space-around;
-}
-.links {
-    display: flex;
-}
-.intro {
-    display: flex;
+    background-color: #1f2937;
+    height: 50px;
 }
