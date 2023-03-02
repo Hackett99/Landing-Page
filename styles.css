@@ -16,8 +16,7 @@
     flex-direction: column;
     height: 500px;
     width: 1000px;
-    background-color: aqua;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 header {
     display: flex;
@@ -29,14 +28,21 @@ header {
     font-size: 24px;
     color: #F9FAF8;
 }
+.links {
+    display: flex;
+    gap: 20px;
+}
 .links a {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
 }
+
 .hero {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
 }
 .heroleft {
     width: 300px;
@@ -51,9 +57,112 @@ h1 {
     color: #E5E7EB;
 }
 .placehol {
-text-align: center;
+display:flex;
+justify-content: center;
+align-items: center;
 color:#F9FAF8;
 width:500px;
 height:200px;
 background-color: gray;
+}
+.hero .heroleft button {
+    padding: 5px;
+    width: 90px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #3882f6;
+    color: #F9FAF8;
+}
+h2 {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    color:#1F2937;
+}
+.second {
+    height: 330px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.infobox {
+    width: 140px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.interiorbox {
+    width: 140px;
+    height: 140px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 5px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.third {
+    height: 350px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+}
+h4 {
+    text-align:right;
+}
+.thirdcontainer {
+    width: 830px;
+}
+.fourth {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourthcontainer {
+    height: 150px;
+    width: 700px;
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+.fifthcontainer {
+    color: #F9FAF8;
+}
+.action {
+    font-size: 24px;
+    font-weight: bold;
+}
+.fourthcontainer button {
+    padding: 5px;
+    width: 100px;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+}
+footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+footer .footer {
+    font-size: 18px;
+    color: #F9FAF8;
 }
